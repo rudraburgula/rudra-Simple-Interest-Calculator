@@ -9,12 +9,12 @@ function compute()
         alert(`You should see an alert "Enter a positive number".`)
     }
     else {
-        var d = `<p>If you deposit ${principal},<br/>
-    at an interest rate of ${rate}%.<br/>
-    You will receive an amount of ${interest},<br/>
-    in the year ${year}.</p>`
-        document.getElementById("result").innerHTML = d;
-    }
+        var d = `<p>If you deposit <label>${principal}</label>,<br/>
+        at an interest rate of <label>${rate}</label>.<br/>
+        You will receive an amount of <label>${interest}</label>,<br/>
+        in the year <label>${year}</label>.</p>`
+            document.getElementById("result").innerHTML = d;
+        }
 
 }
 function updateRate() {

@@ -5,5 +5,4 @@ div,span{padding: 20px;margin: 20px;}
 button{margin-top: 20px;}
 input,select{margin-left: 30px;}
 label{text-align: start;}
-
-
+#result p *{background-color: yellow;}
