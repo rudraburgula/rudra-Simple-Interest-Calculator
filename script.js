@@ -6,7 +6,8 @@ function compute()
     var interest = principal * years * rate / 100;
     var year = new Date().getFullYear() + parseInt(years);
     if (principal == 0 || principal < 0) {
-        alert(`You should see an alert "Enter a positive number".`)
+        alert(`You should see an alert "Enter a positive number".`);
+        document.getElementById("principal").focus();
     }
     else {
         var d = `<p>If you deposit <label>${principal}</label>,<br/>
